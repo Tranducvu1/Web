@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Dog</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <script src="bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link href="shopcat.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar-fixed">
+        <nav class="navbar navbar-expand-sm navbar-dark col-sm-12">
+            <div class="container-fluid nav">
+                <a class="navbar-brand" href="#">
+                    <img src="dora(.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="trangchu.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nn.html">Nhận nuôi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quyengop.html">Quyên góp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="baidang.html">Bài đăng</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="gopy.html">Góp ý</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#cartModal">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span id="cart-count" class="badge bg-danger">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script>
+        AOS.init();
+       </script>
+    <div>
+        <section id="pets" class="mt-5">
+            <div data-aos="fade-down-right" data-aos-duration="1200">
+                <h2 class="text-center mb-4"><i class="fas fa-bone"></i> Dog Food</h2>
+                <div class="pet-scroll-wrapper row-sm-12">
+                    <button class="pet-scroll-button pet-scroll-button-prev" id="prev-button">&#8249;</button>
+                    <div class="pet-scroll-container d-flex justify-content-between" id="scroll-container">
+                        <!-- Generate 16 products dynamically -->
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood1.jpg" alt="Dog Product 1">
+
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Purina Pro Skin and Stomach Dog Food Dry - 30 lb. Bag</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$16.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood2.jpg" alt="Dog Product 2">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Amazon Brand – Wag Dry Dog Food, Salmon and Brown Rice, 5 lb
+                                        Bag</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$17.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood3.jpg" alt="Dog Product 3">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Hill's Science Diet Wet Dog Food, Adult, Sensitive Stomach &
+                                        Skin</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$18.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood4.jpg" alt="Dog Product 4">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Beneful Small Dog Food Variety Pack, IncrediBites With Real
+                                        Beef, Chicken and Salmon</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$19.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood5.jpg" alt="Dog Product 5">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">CESAR Adult Wet Dog Food Classic Loaf Pack</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$20.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood6.jpg" alt="Dog Product 6">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Amazon Brand - Wag Dry Dog Food Salmon & Sweet Potato, Grain
+                                        Free 24 lb Bag</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$21.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood7.jpg" alt="Dog Product 7">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Royal Canin Small Breed Adult Dry Dog Food, 14 lb bag</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$22.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood8.jpg" alt="Dog Product 8">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Purina ONE Dry Dog Food Lamb and Rice Formula - 16.5 lb. Bag
+                                    </h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$23.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood9.jpg" alt="Dog Product 9">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Natural Balance Limited Ingredient Adult Grain-Free Dry Dog
+                                        Food, Salmon & Sweet Potato Recipe</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$24.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood10.jpg" alt="Dog Product 10">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Merrick Premium Grain Free Dry Adult Dog Food- 22.0 lb. Bag
+                                    </h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$25.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood11.jpg" alt="Dog Product 11">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">PEDIGREE CHOPPED GROUND DINNER Adult Canned Soft Wet Dog Food
+                                        Variety Pack, 13.2 oz. Cans</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$26.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogfood12.jpg" alt="Dog Product 12">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Blue Buffalo Wilderness Adult High-Protein Dry Dog Food,
+                                        Salmon with Wholesome Grains, 24-lb. Bag</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$27.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <button class="pet-scroll-button pet-scroll-button-next" id="next-button">&#8250;</button>
+                </div>
+            </div>
+
+
+            <div data-aos="fade-up"data-aos-duration="700">
+                <h2 class="text-center mb-4"><i class="fas fa-bone"></i> Dog Toys</h2>
+                <div class="pet-scroll-wrapper row-sm-12">
+                    <button class="pet-scroll-button pet-scroll-button-prev" id="prev-button">&#8249;</button>
+                    <div class="pet-scroll-container d-flex justify-content-between" id="scroll-container">
+                        <!-- Generate 16 products dynamically -->
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy1.jpg" alt="Dog Product 1">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Benebone 2-pack Wishbone/Dental Durable Dog Chew Toysh5>
+                                        <div class="mb-2">
+                                            <i class="fa fa-star" style="color: yellow"></i>
+                                            <i class="fa fa-star" style="color: yellow"></i>
+                                            <i class="fa fa-star" style="color: yellow"></i>
+                                            <i class="fa fa-star" style="color: yellow"></i>
+                                            <i class="fa fa-star" style="color: yellow"></i>
+                                        </div>
+                                        <div class="price">$16.00</div>
+                                        <div class="d-flex justify-content-between align-items-center mt-2">
+                                            <button type="button" class="btn add-to-cart"><i
+                                                    class="fas fa-shopping-cart"></i></button>
+                                            <a href="#" class="btn btn-success">Đặt hàng</a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy2.jpg" alt="Dog Product 2">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Good Scout Frisbee Dog Toy for Tugging & Chewing, Best Dog
+                                        Toy for Fetch</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$17.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy3.jpg" alt="Dog Product 3">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">FIREOR Dog Squeak Toys</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$18.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy4.jpg" alt="Dog Product 4">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">SmartPetLove Original Snuggle Puppy Heartbeat Stuffed Toy for
+                                        Dogs</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$19.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy5.jpg" alt="Dog Product 5">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Dog Bones Chew Toys for Aggressive Chewers, Indestructible
+                                        Dog Teething Chew Toys</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$20.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy6.jpg" alt="Dog Product 6">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Amazon Basics Dog Toys, Interactive Fetch Rubber Balls</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$21.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy7.jpg" alt="Dog Product 7">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">WinTour Tough Dog Toys for Aggressive Chewers Large Breed,
+                                        Indestructible Dog Toys</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$22.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy8.jpg" alt="Dog Product 8">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Hurray Interactive Dog Toys, Treat Dispensing Dog Toys &
+                                        Adjustable Slow Feeder Ball</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$23.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy9.jpg" alt="Dog Product 9">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Dog Puzzle Toy with Slow Feeder, 2 Levels IQ Training &
+                                        Entertainment</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$24.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy10.jpg" alt="Dog Product 10">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Cheerble Smart Interactive Dog Toy, Wicked Ball AIR</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$25.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy11.jpg" alt="Dog Product 11">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Chuckit! Ultra Fetch Dog Stick for All Breed Sizes</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$26.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogtoy12.jpg" alt="Dog Product 12">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Large Tough Chew Toys for Aggressive Chewers Large Breed</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$27.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <button class="pet-scroll-button pet-scroll-button-next" id="next-button">&#8250;</button>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="800">
+                <h2 class="text-center mb-4"><i class="fas fa-bone"></i> Dog SUPPLIES</h2>
+                <div class="pet-scroll-wrapper row-sm-12">
+                    <button class="pet-scroll-button pet-scroll-button-prev" id="prev-button">&#8249;</button>
+                    <div class="pet-scroll-container d-flex justify-content-between" id="scroll-container">
+                        <!-- Generate 16 products dynamically -->
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup1.jpg" alt="Dog Product 1">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">EHEYCIGA Orthopedic Dog Beds for Extra Large Dogs </h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$16.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup2.jpg" alt="Dog Product 2">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">PupRug Orthopedic Dog Bed with Fluffy Soft Faux Fur</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$17.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup3.jpg" alt="Dog Product 3">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Orthopedic Dog Beds for Small Dogs</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$18.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup4.jpg" alt="Dog Product 4">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Dog Beds Medium Sized Dog, 30 Inch Comfort Dog Crate Bed Pads
+                                        Washable</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$19.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup5.jpg" alt="Dog Product 5">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Bedsure Elevated Raised Cooling Cots Bed for Large Dogs</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$20.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup6.jpg" alt="Dog Product 6">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">35 Inch Orthopedic Waterproof & Machine Washable Dog Bed</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$21.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup7.jpg" alt="Dog Product 7">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Orthopedic Dog Bed - Big Waterproof Dog Bed</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$22.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup8.jpg" alt="Dog Product 8">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Bedsure Calming Dog Bed - Donut Washable Small Pet Bed</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$23.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup9.jpg" alt="Dog Product 9">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Human Dog Bed, 71"x45"x12" Dog Beds for Humans Size Fits You
+                                        and Pets</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$24.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup10.jpg" alt="Dog Product 10">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Sytopia Tear Proof Dog Bed</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$25.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup11.jpg" alt="Dog Product 11">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Dog Car Seat Medium Sized Dogs,Fully Detachable and Washable
+                                    </h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$26.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pet-scroll-item col-sm-12">
+                            <div class="pet-card">
+                                <img class="pet-card-img-top" src="dogsup12.jpg" alt="Dog Product 12">
+                                <div class="pet-card-body">
+                                    <h5 class="card-title">Large Dog Bed with Pillow for Crate Kennel, Sofa Dog Bed,
+                                        Super Soft pet Bed</h5>
+                                    <div class="mb-2">
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                        <i class="fa fa-star" style="color: yellow"></i>
+                                    </div>
+                                    <div class="price">$27.00</div>
+                                    <div class="d-flex justify-content-between align-items-center mt-2">
+                                        <button type="button" class="btn add-to-cart"><i
+                                                class="fas fa-shopping-cart"></i></button>
+                                        <a href="#" class="btn btn-success">Đặt hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <button class="pet-scroll-button pet-scroll-button-next" id="next-button">&#8250;</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="modal fade" id="checkoutModal" tabindex="-1" aria-labelledby="checkoutModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="checkoutModalLabel">Thông tin thanh toán</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="checkoutForm">
+                        <div class="mb-3">
+                            <label for="customerName" class="form-label">Họ và tên</label>
+                            <input type="text" class="form-control" id="customerName" placeholder="Nhập họ và tên"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="customerPhone" class="form-label">Số điện thoại</label>
+                            <input type="text" class="form-control" id="customerPhone" placeholder="Nhập số điện thoại"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="customerAddress" class="form-label">Địa chỉ giao hàng</label>
+                            <textarea class="form-control" id="customerAddress" placeholder="Nhập địa chỉ" rows="3"
+                                required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="selectedItems" class="form-label">Sản phẩm đã chọn</label>
+                            <textarea class="form-control" id="selectedItems" readonly rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="totalAmount" class="form-label">Tổng số tiền</label>
+                            <input type="text" class="form-control" id="totalAmount" readonly>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="paymentMethod" class="form-label">Phương thức thanh toán</label>
+                            <select class="form-control" id="paymentMethod" required>
+                                <option value="" disabled selected>Chọn phương thức</option>
+                                <option value="cash">Thanh toán khi nhận hàng (COD)</option>
+                                <option value="bank">Chuyển khoản ngân hàng</option>
+                                <option value="momo">Ví MoMo</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="submit" class="btn btn-primary" form="checkoutForm">Xác nhận thanh toán</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Giỏ hàng của bạn</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul id="cart-items" class="list-group">
+
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#checkoutModal">Đặt hàng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const cartCountElement = document.getElementById("cart-count");
+            const addToCartButtons = document.querySelectorAll(".add-to-cart");
+            const cartItemsList = document.getElementById("cart-items");
+
+            // Lấy giỏ hàng từ localStorage 
+            let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+            updateCartList();
+
+            addToCartButtons.forEach(button => {
+                button.addEventListener("click", (event) => {
+                    const productCard = event.target.closest(".pet-card");
+                    const productName = productCard.querySelector(".card-title").textContent;
+                    const productPrice = productCard.querySelector(".price").textContent.trim();
+
+
+                    const existingItem = cartItems.find(item => item.name === productName);
+
+                    if (existingItem) {
+
+                        existingItem.quantity++;
+                        updateCartList();
+                    } else {
+                        // Thêm sản phẩm mới vào giỏ hàng
+                        cartItems.push({ name: productName, price: productPrice, quantity: 1, selected: false });
+                        updateCartList();
+                    }
+
+                    // Lưu giỏ hàng vào localStorage
+                    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+
+
+
+                });
+            });
+            function updateCartList() {
+                cartCountElement.textContent = cartItems.reduce((sum, item) => sum + item.quantity, 0); // Tổng số sản phẩm
+                cartItemsList.innerHTML = "";
+                cartItems.forEach(item => {
+                    const li = document.createElement("li");
+                    li.className = "list-group-item d-flex justify-content-between align-items-center";
+                    li.innerHTML = `
+           <div style="display: flex; align-items: center;">
+               <input type="checkbox" class="select-item" data-name="${item.name}" ${item.selected ? "checked" : ""}>
+               <span style="flex: 1; margin-left: 10px;">${item.name} - ${item.price}</span>
+               <button class="btn-sm btn-secondary decrease-quantity" data-name="${item.name}">-</button>
+               <span style="margin: 0 10px;">${item.quantity}</span>
+               <button class="btn-sm btn-secondary increase-quantity" data-name="${item.name}">+</button>
+           </div>
+           <button class="btn btn-sm btn-danger remove-item" style="margin-top: 6px;margin-left:10px!important" data-name="${item.name}">Xóa</button>
+       `;
+                    cartItemsList.appendChild(li);
+                });
+
+
+                addQuantityEvents();
+            }
+
+            function addQuantityEvents() {
+                // Tăng số lượng
+                document.querySelectorAll(".increase-quantity").forEach(button => {
+                    button.addEventListener("click", (event) => {
+                        const productName = event.target.getAttribute("data-name");
+                        const item = cartItems.find(item => item.name === productName);
+                        if (item) item.quantity++;
+
+                        localStorage.setItem("cartItems", JSON.stringify(cartItems));
+                        updateCartList();
+                    });
+                });
+
+                // Giảm số lượng
+                document.querySelectorAll(".decrease-quantity").forEach(button => {
+                    button.addEventListener("click", (event) => {
+                        const productName = event.target.getAttribute("data-name");
+                        const item = cartItems.find(item => item.name === productName);
+                        if (item && item.quantity > 1) {
+                            item.quantity--;
+                            updateCartList();
+                        } else {
+                            // Nếu số lượng là 1, xóa sản phẩm khỏi giỏ hàng
+                            cartItems = cartItems.filter(item => item.name !== productName);
+                            updateCartList();
+                        }
+                        localStorage.setItem("cartItems", JSON.stringify(cartItems));
+
+                    });
+                });
+
+                // Xóa sản phẩm
+                document.querySelectorAll(".remove-item").forEach(button => {
+                    button.addEventListener("click", (event) => {
+                        const productName = event.target.getAttribute("data-name");
+                        cartItems = cartItems.filter(item => item.name !== productName);
+                        localStorage.setItem("cartItems", JSON.stringify(cartItems));
+                        updateCartList();
+                    });
+                });
+
+                // Chọn sản phẩm
+                document.querySelectorAll(".select-item").forEach(checkbox => {
+                    checkbox.addEventListener("change", (event) => {
+                        const productName = event.target.getAttribute("data-name");
+                        const item = cartItems.find(item => item.name === productName);
+                        if (item) item.selected = event.target.checked;
+                        localStorage.setItem("cartItems", JSON.stringify(cartItems));
+                    });
+                });
+            }
+
+
+        });
+
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const scrollContainer1 = document.getElementById("scroll-container");
+            const prevButton1 = document.getElementById("prev-button");
+            const nextButton1 = document.getElementById("next-button");
+
+            const scrollContainer2 = document.getElementById("scroll-container-2");
+            const prevButton2 = document.getElementById("prev-button-2");
+            const nextButton2 = document.getElementById("next-button-2");
+
+            const scrollContainer3 = document.getElementById("scroll-container-3");
+            const prevButton3 = document.getElementById("prev-button-3");
+            const nextButton3 = document.getElementById("next-button-3");
+
+            // Số pixel cuộn mỗi lần
+            const scrollAmount = 300;
+
+            // Xử lý nút Next và Prev cho phần đầu tiên
+            nextButton1.addEventListener("click", () => {
+                scrollContainer1.scrollBy({ left: scrollAmount, behavior: "smooth" });
+            });
+            prevButton1.addEventListener("click", () => {
+                scrollContainer1.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+            });
+
+            // Xử lý nút Next và Prev cho phần thứ hai
+            nextButton2.addEventListener("click", () => {
+                scrollContainer2.scrollBy({ left: scrollAmount, behavior: "smooth" });
+            });
+            prevButton2.addEventListener("click", () => {
+                scrollContainer2.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+            });
+            nextButton3.addEventListener("click", () => {
+                scrollContainer3.scrollBy({ left: scrollAmount, behavior: "smooth" });
+            });
+            prevButton3.addEventListener("click", () => {
+                scrollContainer3.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+            });
+        });
+    </script>
+    <script>
+
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const cartCountElement = document.getElementById("cart-count");
+            const addToCartButtons = document.querySelectorAll(".add-to-cart");
+            const cartItemsList = document.getElementById("cart-items");
+            const totalAmountInput = document.getElementById("totalAmount");
+            let cartCount = 0;
+            let cartItems = []; // Danh sách sản phẩm trong giỏ hàng
+
+            addToCartButtons.forEach(button => {
+                button.addEventListener("click", (event) => {
+                    const productCard = event.target.closest(".pet-card");
+                    const productName = productCard.querySelector(".card-title").textContent;
+                    const productPrice = productCard.querySelector(".price").textContent.trim();
+                    // Cập nhật số lượng trên menu
+                    cartCount++;
+                    // Cập nhật danh sách hiển thị trong modal
+                    updateCartList();
+                });
+            });
+
+            function updateCartList() {
+                //   cartItemsList.innerHTML = ""; // Xóa danh sách cũ
+                let totalAmount = 0; // Tổng số tiền
+                cartItems.forEach(item => {
+                    const li = document.createElement("li");
+                    li.className = "list-group-item d-flex justify-content-between align-items-center";
+                    li.textContent = `${item.name} - ${item.price}`;
+                    totalAmount += item.price * item.quantity; // Tính tổng số tiền
+                    cartItemsList.appendChild(li);
+                });
+                totalAmountInput.value = totalAmount.toLocaleString('vi-VN');
+                console.log(totalAmountInput);
+            }
+
+            const buyButtons = document.querySelectorAll(".btn-success"); // Lấy tất cả nút "Buy"
+            const selectedItemsTextarea = document.getElementById("selectedItems");
+            const checkoutModal = new bootstrap.Modal(document.getElementById("checkoutModal"));
+            buyButtons.forEach(button => {
+                button.addEventListener("click", (event) => {
+                    event.preventDefault(); // Ngăn chặn hành vi mặc định của nút
+                    const productCard = event.target.closest(".pet-card");
+                    const productName = productCard.querySelector(".card-title").textContent;
+                    const productPrice = productCard.querySelector(".price").textContent.trim();
+                    selectedItemsTextarea.value = `${productName} - ${productPrice}`;
+                    checkoutModal.show(); // Mở modal điền thông tin
+                });
+            });
+            // Hàm cập nhật danh sách sản phẩm được chọn
+
+            function updateSelectedItems() {
+                const selectedItemsText = document.getElementById("selectedItems");
+                let totalAmount = 0;
+
+                // Lấy sản phẩm trong giỏ hàng từ localStorage
+                const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+
+                if (cartItems.length > 0) {
+                    const selectedItems = cartItems.map(item => {
+                        // Đảm bảo giá 'price' được phân tích đúng kiểu float và 'quantity' là kiểu integer
+                        const price = parseFloat(item.price.replace('$', '').trim()); // Loại bỏ dấu đô la và phân tích
+                        const quantity = parseInt(item.quantity);  // Phân tích số lượng là integer
+
+                        // Ghi lại thông tin để kiểm tra (debugging)
+                        console.log(`Item: ${item.name}, Giá: ${price}, Số lượng: ${quantity}`);
+
+                        // Tính tổng số tiền
+                        totalAmount += price * quantity;
+
+                        // Trả về thông tin sản phẩm đã định dạng cho danh sách các sản phẩm đã chọn
+                        return `${item.name} - $${price.toFixed(2)} (Số lượng: ${quantity})`;
+                    });
+
+                    // Cập nhật trường tổng số tiền với giá trị định dạng tiền tệ
+                    totalAmountInput.value = `$${totalAmount.toFixed(2)}`;
+
+                    // Nối danh sách các sản phẩm đã chọn và cập nhật khu vực văn bản
+                    selectedItemsText.value = selectedItems.join("\n");
+
+                    // Ghi lại thông tin để kiểm tra (debugging)
+                    console.log("Danh sách các sản phẩm đã chọn:\n", selectedItemsText.value);
+                    console.log("Tổng số tiền: ", totalAmountInput.value);
+                } else {
+                    // Nếu không có sản phẩm, hiển thị thông báo không có sản phẩm trong giỏ
+                    selectedItemsText.value = "Chưa có sản phẩm nào.";
+                }
+            }
+            // Gán sự kiện cho checkbox trong giỏ hàng
+            cartItemsList.addEventListener("change", (event) => {
+                if (event.target.classList.contains("select-item")) {
+                    updateSelectedItems(); // Cập nhật danh sách sản phẩm đã chọn
+                }
+            });
+
+
+            function updateTotalAmount() {
+                let totalAmount = cartItems.reduce((total, item) => total + (item.price * item.quantity), 0);
+                totalAmountInput.value = `${totalAmount.toFixed(0)}₫`; // Update the total amount input
+            }
+            // Hiển thị modal thanh toán
+            document.querySelector(".btn-primary[data-bs-target='#checkoutModal']").addEventListener("click", () => {
+                updateSelectedItems(); // Cập nhật danh sách sản phẩm khi mở modal
+                checkoutModal.show();
+            });
+        });
+        // Xử lý xác nhận thanh toán
+        const checkoutForm = document.getElementById("checkoutForm");
+        checkoutForm.addEventListener("submit", (event) => {
+            event.preventDefault(); // Ngăn chặn tải lại trang
+
+            const customerName = document.getElementById("customerName").value;
+            const customerPhone = document.getElementById("customerPhone").value;
+            const customerAddress = document.getElementById("customerAddress").value;
+            const selectedItems = document.getElementById("selectedItems").value;
+            const paymentMethod = document.getElementById("paymentMethod").value;
+
+            if (!paymentMethod) {
+                alert("Vui lòng chọn phương thức thanh toán.");
+                return;
+            }
+
+            alert(`
+            Đặt hàng thành công!
+            Khách hàng: ${customerName}
+            Điện thoại: ${customerPhone}
+            Địa chỉ: ${customerAddress}
+
+            Sản phẩm: ${selectedItems}
+            Phương thức thanh toán: ${paymentMethod}
+        `);
+
+            // Reset form và đóng modal
+            checkoutForm.reset(); // Reset form thanh toán
+            document.getElementById("selectedItems").value = ""; // Xóa sản phẩm đã chọn
+            checkoutModalInstance.hide(); // Đóng modal thanh toán
+        });
+    </script>
+<footer class="bg-light">
+    <div class="container mt-5 pattern1">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <img src="dora(.png" alt="Logo" class="img-fluid mb-3">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 ">
+                <h3 class="mb-4">Liên hệ</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-3">
+                        <i class="fas fa-phone margin-icon"></i>
+                        <a href="tel:0836981446">0836981446</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope margin-icon"></i>
+                        <a href="mailto:dorateams24@gmail.com">dorateams24@gmail.com</a>
+                    </li>
+                    <br>
+                    <li>
+                        <i class="fas fa-map-marker-alt margin-icon"></i>
+                        <span>Địa chỉ: 470, Trần Đại Nghĩa , Hoà Quý , Ngũ Hành Sơn, Đà Nẵng</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61559304898620&amp;tabs=timeline&amp;width=340&amp;height=130&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId"
+                    width="100%" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

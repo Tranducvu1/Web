@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiến Thức Chăm Sóc Thú Cưng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.donate-bg {
+    background-image: url(bg.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /* Cố định nền  */
+    object-fit: cover;
+    background-size: cover;
+}
+
+.navbar {
+    background: #199d6a;
+    color: #222;
+    box-shadow: 0 -2px 12px rgba(0, 0, 0, .07);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .navbar-brand img {
+    width: 130px;
+    height: auto;
+  }
+  
+  .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .2px;
+    color: white;
+    border-radius: 22px;
+    padding: 8px 16px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: black;
+    background: #bbca16;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .btn {
+    background: #199d6a;
+    color: white;
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  .btn:hover {
+    background: #65e5b4;
+    color: black;
+  }
+  
+  .btn-contact {
+    transition: all .2s ease-in-out;
+    color: #fff !important;
+    border: 0;
+    font-size: 1rem;
+    padding: 10px 50px;
+    outline: none;
+    letter-spacing: .2px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    white-space: normal;
+    font-weight: bold;
+  }
+  
+  body {
+    padding-top: 70px; 
+    margin: 0;
+  }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .post-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            cursor: pointer;
+        }
+
+        .post-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .post-card .post-date {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: orange;
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+
+        .post-content {
+            padding: 15px;
+        }
+
+        .post-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .post-summary {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .search-box {
+            position: sticky;
+            top: 10px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar-fixed">
+        <nav class="navbar navbar-expand-sm navbar-dark col-sm-12">
+            <div class="container-fluid nav">
+                <a class="navbar-brand" href="#">
+                    <img src="dora(.png" alt="Logo" class="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link " href="trangchu.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nn.html">Nhận nuôi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quyengop.html">Quyên góp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="baidang.html">Bài đăng</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="gopy.html">Góp ý</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container py-4">
+        <h1 class="text-center mb-4">Kiến Thức Chăm Sóc Thú Cưng</h1>
+        <div class="row">
+            <!-- Danh sách bài viết -->
+            <div class="col-md-8">
+                <div class="row" id="postContainer">
+                    <!-- Bài viết 1 -->
+                    <div class="col-md-6 post-item"
+                        onclick="redirectTo('https://www.chotot.com/kinh-nghiem/cho-khong-nen-an-gi.html')">
+                        <div class="post-card">
+                            <div class="position-relative">
+                                <img src="koan.png" alt="Bài viết 1">
+
+                            </div>
+                            <div class="post-content">
+                                <a href="https://www.chotot.com/kinh-nghiem/cho-khong-nen-an-gi.html" class="post-title"
+                                    target="_blank">
+                                    13 Thực Phẩm Nguy Hiểm Cho Chó – Không Nên Ăn!
+                                </a>
+                                <p class="post-summary">Một số thực phẩm nguy hiểm cho sức khỏe chó mà bạn cần biết...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 post-item"
+                        onclick="redirectTo('https://www.royalcanin.com/vn/cats/health-and-wellbeing/what-foods-are-toxic-for-my-cat')">
+                        <div class="post-card">
+                            <div class="position-relative">
+                                <img src="meokoan.png" alt="Bài viết 2">
+                            </div>
+                            <div class="post-content">
+                                <a href="https://www.royalcanin.com/vn/cats/health-and-wellbeing/what-foods-are-toxic-for-my-cat"
+                                    class="post-title" target="_blank">
+                                    13 loại thực phẩm nguy hiểm cho mèo – cần lưu ý tránh xa
+                                </a>
+                                <p class="post-summary">Một số thực phẩm nguy hiểm cho sức khỏe mèo mà bạn cần biết...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 post-item" onclick="redirectTo('https://vuongquocloaivat.com/meo-co-bau/')">
+                        <div class="post-card">
+                            <div class="position-relative">
+                                <img src="meode.png" alt="Bài viết 3">
+                            </div>
+                            <div class="post-content">
+                                <a href="https://vuongquocloaivat.com/meo-co-bau/" class="post-title" target="_blank">
+                                    Mèo mang thai bao lâu thì đẻ? Dấu hiệu nhận biết & cách chăm sóc mèo bầu
+                                </a>
+                                <p class="post-summary">Cũng như những loài động vật khác, trước khi mang thai mèo mẹ
+                                    thường có nhiều dấu hiệu biểu hiện...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 post-item" onclick="redirectTo('https://pethealth.vn/blogs/cac-loai-benh/benh-o-meo')">
+                        <div class="post-card">
+                            <div class="position-relative">
+                                <img src="benhmeo.png" alt="Bài viết 3">
+                            </div>
+                            <div class="post-content">
+                                <a href="https://pethealth.vn/blogs/cac-loai-benh/benh-o-meo" class="post-title" target="_blank">
+                                    Các Bệnh Thường Gặp Ở Mèo:Biểu Hiện, Nguyên Nhân Và Cách Phòng Tránh, Điều Trị
+                                </a>
+                                <p class="post-summary">Trong quá trình phát triển của mình, các bé mèo cũng có thể xuất hiện một số vấn đề về sức khỏe...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 post-item" onclick="redirectTo('https://www.m5s.vn/ba-cho-la-gi.html')">
+                        <div class="post-card">
+                            <div class="position-relative">
+                                <img src="bacho.png" alt="Bài viết 3">
+                            </div>
+                            <div class="post-content">
+                                <a href="https://www.m5s.vn/ba-cho-la-gi.html" class="post-title" target="_blank">
+                                    Bả chó là gì? Cách nhận biết và chữa trị khi chó bị trúng bả
+                                </a>
+                                <p class="post-summary">Với những người yêu thương động vật thì việc thú cưng của mình bị bọn cẩu tặc đánh bả là vô cùng đau lòng...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="search-box">
+                    <h5>Tìm kiếm</h5>
+                    <input id="searchInput" type="text" class="form-control mb-3" placeholder="Nhập từ khóa...">
+                    <h5>Bài viết mới</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.chotot.com/kinh-nghiem/cho-khong-nen-an-gi.html" target="_blank">13
+                                Thực Phẩm Nguy Hiểm Cho Chó</a></li>
+                        <li><a href="https://vuongquocloaivat.com/meo-co-bau/" target="_blank">Mèo mang thai bao lâu thì đẻ? Dấu hiệu nhận biết & cách chăm sóc mèo bầu</a></li>
+                        <li><a href="https://www.m5s.vn/ba-cho-la-gi.html"> Bả chó là gì? Cách nhận biết và chữa trị khi chó bị trúng bả</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Chức năng chuyển hướng khi bấm vào bài viết
+        function redirectTo(url) {
+            window.open(url, '_blank'); // Mở link trong tab mới
+        }
+
+        // Chức năng tìm kiếm
+        document.getElementById('searchInput').addEventListener('input', function () {
+            const keyword = this.value.toLowerCase();
+            const posts = document.querySelectorAll('.post-item');
+
+            posts.forEach(post => {
+                const title = post.querySelector('.post-title').textContent.toLowerCase();
+                const summary = post.querySelector('.post-summary').textContent.toLowerCase();
+
+                // Kiểm tra nếu từ khóa xuất hiện trong tiêu đề hoặc nội dung
+                if (title.includes(keyword) || summary.includes(keyword)) {
+                    post.style.display = 'block'; // Hiển thị bài viết
+                } else {
+                    post.style.display = 'none'; // Ẩn bài viết
+                }
+            });
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <footer class="bg-light">
+        <div class="container mt-5 pattern1">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 text-center">
+                    <img src="dora(.png" alt="Logo" class="img-fluid mb-3">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 ">
+                    <h3 class="mb-4">Liên hệ</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <i class="fas fa-phone margin-icon"></i>
+                            <a href="tel:0836981446">0836981446</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope margin-icon"></i>
+                            <a href="mailto:dorateams24@gmail.com">dorateams24@gmail.com</a>
+                        </li>
+                        <br>
+                        <li>
+                            <i class="fas fa-map-marker-alt margin-icon"></i>
+                            <span>Địa chỉ: 470, Trần Đại Nghĩa , Hoà Quý , Ngũ Hành Sơn, Đà Nẵng</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 text-center">
+                    <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61559304898620&amp;tabs=timeline&amp;width=340&amp;height=130&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId"
+                        width="100%" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
